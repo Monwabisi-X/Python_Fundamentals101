@@ -3,35 +3,37 @@
 # 1. Variables: You can store values in variables.
 
 # On the next line store the number '10' in the variable 'x'.
-
+x = 10
 
 # On the next line, store the number '20.5' in the variable 'y'.
-
+y = 20.5
 
 # On the next line, store the string 'Hello, World!' in the variable 'z'.
-
+z = "'Hello, World!'"
 
 # On the next line, store the boolean 'True' in the variable 'a'.
-
+a = True
 
 # On the next line, store the boolean 'False' in the variable 'b'.
+b = False
 
-
-# Use the print statement and the variable 'x' to display the message:
+# Use the print statement and the variable 'x' to display the message:=
     # "10, is an integer variable."
-print()    
+print(str(x) + ", is an integer variable.")    
 # Use the print statement and the variable 'y' to display the message: 
     # "20.5, is a float variable."
-print()
+print(str(y) + ", is a float variable.")
+
+print(5 + int("2"))
 # Use the print statement and the variable 'z' to display the message: 
     # " 'Hello, World!' is a string variable."
-print()
+print(z + " is a string variable")
 # Use the print statement and the variable 'a' to display the message:
     # " 'True', is a boolean variable."
-print()
+print(str(a) + " is a boolian variable")
 # Use the print statement and the variable 'b' to display the message:
     # " 'False', is a boolean variable.
-print()    
+print(str(b) + " is a boolean variable")    
 
 
 # 2. Data Types: Python has several built-in data types.
@@ -42,7 +44,7 @@ print()
 
 # Edit the code below to print:
     # "10 belongs to <class 'int'>: meaning it is an integer."
-print()
+print(str(x) + " belongs to " + str(type(x)) + ": meaning it is an integer.")
 
 # Edit the code below to print:
     # " 20.5 belongs to <class 'float'>: meaning it is a float."
