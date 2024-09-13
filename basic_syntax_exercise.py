@@ -48,15 +48,15 @@ print(str(x) + " belongs to " + str(type(x)) + ": meaning it is an integer.")
 
 # Edit the code below to print:
     # " 20.5 belongs to <class 'float'>: meaning it is a float."
-print()
+print(str(y) + " belongs to " + str(type(y)) + ": meaning it is a float.")
 
 # Edit the code below to print:
     # " 'Hello, World!', belongs to <class 'str'>: meaning it is a string."
-print()
+print(z + ", belongs to " + str(type(z)) + ": meaning it is a string.")
 
 # Edit the code below to print:
     # "'True', belongs to <class 'bool'>: meaning it is a boolean."
-print()
+print(str(a) + ",")
 
 # Edit the code below to print:
     # "'False', belongs to <class 'bool'>: meaning it is a boolean.
