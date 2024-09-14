@@ -23,8 +23,6 @@ print(str(x) + ", is an integer variable.")
 # Use the print statement and the variable 'y' to display the message: 
     # "20.5, is a float variable."
 print(str(y) + ", is a float variable.")
-
-print(5 + int("2"))
 # Use the print statement and the variable 'z' to display the message: 
     # " 'Hello, World!' is a string variable."
 print(z + " is a string variable")
@@ -56,11 +54,11 @@ print(z + ", belongs to " + str(type(z)) + ": meaning it is a string.")
 
 # Edit the code below to print:
     # "'True', belongs to <class 'bool'>: meaning it is a boolean."
-print(str(a) + ",")
+print(str(a) + ", belongs to " + str(type(a)) + ": meaning it is a boolean.")
 
 # Edit the code below to print:
     # "'False', belongs to <class 'bool'>: meaning it is a boolean.
-print()
+print(str(b) + ", belongs to " + str(type(b)) + ": meaning it is a boolean.")
 
 
 # 3. Basic Operators: 
@@ -68,19 +66,19 @@ print()
 # Arithmetic Operators
 
 # Addition: print the sum of 'x' and 'y'.
-print("The sum of 'x' and 'y' is: ")
+print("The sum of 'x' and 'y' is: " + str(x + y))
 
 # Subtraction: print the difference between 'x' and 'y'.
-print("The difference between 'x' and 'y' is: ")
+print("The difference between 'x' and 'y' is: " + str(y - x))
 
 # Multiplication: print the product of 'x' and 'y'.
-print("The product of 'x' and 'y' is: ")
+print("The product of 'x' and 'y' is: " + str(x * y))
 
 # Division: print the answer when you divide 'x' by 'y'.
-print("The division of 'x' by 'y' is:")
+print("The division of 'x' by 'y' is:" + str(x / y))
 
 # Modulus (remainder of the division): print the remainder after dividing 'x' by 'y'.
-print("The modulus of 'x' and 'y' is: ")
+print("The modulus of 'x' and 'y' is: " + str(x % y))
 
 
 # 4. Indentation: 
@@ -88,6 +86,6 @@ print("The modulus of 'x' and 'y' is: ")
 # Complete the for loop below to print numbers 0 to 5    
 
 
-# for number in range(6):
-# print()  # This line is part of the for loop and it must be indented.
+for number in range(6):
+    print(number)  # This line is part of the for loop and it must be indented.
     
