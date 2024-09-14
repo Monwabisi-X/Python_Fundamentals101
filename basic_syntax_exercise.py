@@ -28,10 +28,10 @@ print(str(y) + ", is a float variable.")
 print(z + " is a string variable")
 # Use the print statement and the variable 'a' to display the message:
     # " 'True', is a boolean variable."
-print(str(a) + " is a boolian variable")
+print("'" + str(a) + "'" + " is a boolian variable")
 # Use the print statement and the variable 'b' to display the message:
     # " 'False', is a boolean variable.
-print(str(b) + " is a boolean variable")    
+print("'" + str(b) + "'" + " is a boolean variable")    
 
 
 # 2. Data Types: Python has several built-in data types.
@@ -54,11 +54,11 @@ print(z + ", belongs to " + str(type(z)) + ": meaning it is a string.")
 
 # Edit the code below to print:
     # "'True', belongs to <class 'bool'>: meaning it is a boolean."
-print(str(a) + ", belongs to " + str(type(a)) + ": meaning it is a boolean.")
+print("'" + str(a) + "'" + ", belongs to " + str(type(a)) + ": meaning it is a boolean.")
 
 # Edit the code below to print:
     # "'False', belongs to <class 'bool'>: meaning it is a boolean.
-print(str(b) + ", belongs to " + str(type(b)) + ": meaning it is a boolean.")
+print("'" + str(b) + "'" + ", belongs to " + str(type(b)) + ": meaning it is a boolean.")
 
 
 # 3. Basic Operators: 
