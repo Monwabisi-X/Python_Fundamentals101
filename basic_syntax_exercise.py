@@ -9,7 +9,7 @@ x = 10
 y = 20.5
 
 # On the next line, store the string 'Hello, World!' in the variable 'z'.
-z = "'Hello, World!'"
+z = "Hello, World!"
 
 # On the next line, store the boolean 'True' in the variable 'a'.
 a = True
@@ -25,7 +25,7 @@ print(str(x) + ", is an integer variable.")
 print(str(y) + ", is a float variable.")
 # Use the print statement and the variable 'z' to display the message: 
     # " 'Hello, World!' is a string variable."
-print(z + " is a string variable")
+print("'" + z + "'" + " is a string variable")
 # Use the print statement and the variable 'a' to display the message:
     # " 'True', is a boolean variable."
 print("'" + str(a) + "'" + " is a boolian variable")
@@ -50,7 +50,7 @@ print(str(y) + " belongs to " + str(type(y)) + ": meaning it is a float.")
 
 # Edit the code below to print:
     # " 'Hello, World!', belongs to <class 'str'>: meaning it is a string."
-print(z + ", belongs to " + str(type(z)) + ": meaning it is a string.")
+print("'" + z + "'" + ", belongs to " + str(type(z)) + ": meaning it is a string.")
 
 # Edit the code below to print:
     # "'True', belongs to <class 'bool'>: meaning it is a boolean."
